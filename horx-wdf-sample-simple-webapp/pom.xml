@@ -6,13 +6,14 @@
 
     <groupId>org.horx</groupId>
     <artifactId>horx-wdf-sample-simple-webapp</artifactId>
-    <version>1.0.0-SNAPSHOT</version>
+    <version>1.0.1-SNAPSHOT</version>
     <packaging>war</packaging>
 
     <properties>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
         <maven.compiler.source>1.8</maven.compiler.source>
         <maven.compiler.target>1.8</maven.compiler.target>
+        <mysql-connector.version>8.0.16</mysql-connector.version>
     </properties>
 
     <dependencyManagement>
@@ -20,9 +21,14 @@
             <dependency>
                 <groupId>org.horx</groupId>
                 <artifactId>horx-wdf</artifactId>
-                <version>1.0.0-RELEASE</version>
+                <version>1.0.1-RELEASE</version>
                 <type>pom</type>
                 <scope>import</scope>
+            </dependency>
+            <dependency>
+                <groupId>mysql</groupId>
+                <artifactId>mysql-connector-java</artifactId>
+                <version>${mysql-connector.version}</version>
             </dependency>
         </dependencies>
     </dependencyManagement>
@@ -143,10 +149,6 @@
         <dependency>
             <groupId>mysql</groupId>
             <artifactId>mysql-connector-java</artifactId>
-        </dependency>
-        <dependency>
-            <groupId>com.h2database</groupId>
-            <artifactId>h2</artifactId>
         </dependency>
 
         <dependency>
