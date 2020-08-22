@@ -6,7 +6,7 @@
 
     <groupId>org.horx</groupId>
     <artifactId>horx-wdf-sample-simple-webapp</artifactId>
-    <version>1.0.1-SNAPSHOT</version>
+    <version>1.0.2-SNAPSHOT</version>
     <packaging>war</packaging>
 
     <properties>
@@ -21,7 +21,7 @@
             <dependency>
                 <groupId>org.horx</groupId>
                 <artifactId>horx-wdf</artifactId>
-                <version>1.0.1-RELEASE</version>
+                <version>1.0.2-RELEASE</version>
                 <type>pom</type>
                 <scope>import</scope>
             </dependency>
@@ -104,7 +104,7 @@
         </dependency>
         <dependency>
             <groupId>org.springframework.session</groupId>
-            <artifactId>spring-session</artifactId>
+            <artifactId>spring-session-core</artifactId>
         </dependency>
 
         <dependency>
