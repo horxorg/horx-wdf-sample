@@ -6,7 +6,7 @@
 
     <groupId>org.horx</groupId>
     <artifactId>horx-wdf-sample-simple-webapp</artifactId>
-    <version>1.0.2-SNAPSHOT</version>
+    <version>1.0.3-SNAPSHOT</version>
     <packaging>war</packaging>
 
     <properties>
@@ -21,7 +21,7 @@
             <dependency>
                 <groupId>org.horx</groupId>
                 <artifactId>horx-wdf</artifactId>
-                <version>1.0.2-RELEASE</version>
+                <version>1.0.3-RELEASE</version>
                 <type>pom</type>
                 <scope>import</scope>
             </dependency>
@@ -59,6 +59,10 @@
         <dependency>
             <groupId>commons-io</groupId>
             <artifactId>commons-io</artifactId>
+        </dependency>
+        <dependency>
+            <groupId>org.apache.commons</groupId>
+            <artifactId>commons-pool2</artifactId>
         </dependency>
 
         <dependency>
@@ -105,6 +109,14 @@
         <dependency>
             <groupId>org.springframework.session</groupId>
             <artifactId>spring-session-core</artifactId>
+        </dependency>
+        <dependency>
+            <groupId>org.springframework.data</groupId>
+            <artifactId>spring-data-redis</artifactId>
+        </dependency>
+        <dependency>
+            <groupId>redis.clients</groupId>
+            <artifactId>jedis</artifactId>
         </dependency>
 
         <dependency>

@@ -6,7 +6,7 @@
 
     <groupId>org.horx</groupId>
     <artifactId>horx-wdf-sample</artifactId>
-    <version>1.0.2-SNAPSHOT</version>
+    <version>1.0.3-SNAPSHOT</version>
     <packaging>pom</packaging>
 
     <modules>
